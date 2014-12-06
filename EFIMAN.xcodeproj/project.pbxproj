@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B47BF0B61A2DCBF7004ACA07 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47BF0B51A2DCBF7004ACA07 /* main.swift */; };
+		B47BF0B81A2DCBF7004ACA07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47BF0B71A2DCBF7004ACA07 /* AppDelegate.swift */; };
+		B47BF0BA1A2DCBF7004ACA07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47BF0B91A2DCBF7004ACA07 /* Images.xcassets */; };
+		B47BF0BD1A2DCBF8004ACA07 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47BF0BB1A2DCBF8004ACA07 /* MainMenu.xib */; };
+		B47BF0C91A2DCBF8004ACA07 /* EFIMANTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47BF0C81A2DCBF8004ACA07 /* EFIMANTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B47BF0C31A2DCBF8004ACA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B47BF0A81A2DCBF7004ACA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B47BF0AF1A2DCBF7004ACA07;
+			remoteInfo = EFIMAN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B47BF0B01A2DCBF7004ACA07 /* EFIMAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFIMAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47BF0B41A2DCBF7004ACA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B47BF0B51A2DCBF7004ACA07 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B47BF0B71A2DCBF7004ACA07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B47BF0B91A2DCBF7004ACA07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B47BF0BC1A2DCBF8004ACA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B47BF0C21A2DCBF8004ACA07 /* EFIMANTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EFIMANTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47BF0C71A2DCBF8004ACA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B47BF0C81A2DCBF8004ACA07 /* EFIMANTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFIMANTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B47BF0AD1A2DCBF7004ACA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B47BF0BF1A2DCBF8004ACA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B47BF0A71A2DCBF7004ACA07 = {
+			isa = PBXGroup;
+			children = (
+				B47BF0B21A2DCBF7004ACA07 /* EFIMAN */,
+				B47BF0C51A2DCBF8004ACA07 /* EFIMANTests */,
+				B47BF0B11A2DCBF7004ACA07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B47BF0B11A2DCBF7004ACA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B47BF0B01A2DCBF7004ACA07 /* EFIMAN.app */,
+				B47BF0C21A2DCBF8004ACA07 /* EFIMANTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B47BF0B21A2DCBF7004ACA07 /* EFIMAN */ = {
+			isa = PBXGroup;
+			children = (
+				B47BF0B71A2DCBF7004ACA07 /* AppDelegate.swift */,
+				B47BF0B91A2DCBF7004ACA07 /* Images.xcassets */,
+				B47BF0BB1A2DCBF8004ACA07 /* MainMenu.xib */,
+				B47BF0B31A2DCBF7004ACA07 /* Supporting Files */,
+			);
+			path = EFIMAN;
+			sourceTree = "<group>";
+		};
+		B47BF0B31A2DCBF7004ACA07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B47BF0B41A2DCBF7004ACA07 /* Info.plist */,
+				B47BF0B51A2DCBF7004ACA07 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B47BF0C51A2DCBF8004ACA07 /* EFIMANTests */ = {
+			isa = PBXGroup;
+			children = (
+				B47BF0C81A2DCBF8004ACA07 /* EFIMANTests.swift */,
+				B47BF0C61A2DCBF8004ACA07 /* Supporting Files */,
+			);
+			path = EFIMANTests;
+			sourceTree = "<group>";
+		};
+		B47BF0C61A2DCBF8004ACA07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B47BF0C71A2DCBF8004ACA07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B47BF0AF1A2DCBF7004ACA07 /* EFIMAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B47BF0CC1A2DCBF8004ACA07 /* Build configuration list for PBXNativeTarget "EFIMAN" */;
+			buildPhases = (
+				B47BF0AC1A2DCBF7004ACA07 /* Sources */,
+				B47BF0AD1A2DCBF7004ACA07 /* Frameworks */,
+				B47BF0AE1A2DCBF7004ACA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFIMAN;
+			productName = EFIMAN;
+			productReference = B47BF0B01A2DCBF7004ACA07 /* EFIMAN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B47BF0C11A2DCBF8004ACA07 /* EFIMANTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B47BF0CF1A2DCBF8004ACA07 /* Build configuration list for PBXNativeTarget "EFIMANTests" */;
+			buildPhases = (
+				B47BF0BE1A2DCBF8004ACA07 /* Sources */,
+				B47BF0BF1A2DCBF8004ACA07 /* Frameworks */,
+				B47BF0C01A2DCBF8004ACA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B47BF0C41A2DCBF8004ACA07 /* PBXTargetDependency */,
+			);
+			name = EFIMANTests;
+			productName = EFIMANTests;
+			productReference = B47BF0C21A2DCBF8004ACA07 /* EFIMANTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B47BF0A81A2DCBF7004ACA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Nattapong Pullkhow";
+				TargetAttributes = {
+					B47BF0AF1A2DCBF7004ACA07 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B47BF0C11A2DCBF8004ACA07 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B47BF0AF1A2DCBF7004ACA07;
+					};
+				};
+			};
+			buildConfigurationList = B47BF0AB1A2DCBF7004ACA07 /* Build configuration list for PBXProject "EFIMAN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B47BF0A71A2DCBF7004ACA07;
+			productRefGroup = B47BF0B11A2DCBF7004ACA07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B47BF0AF1A2DCBF7004ACA07 /* EFIMAN */,
+				B47BF0C11A2DCBF8004ACA07 /* EFIMANTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B47BF0AE1A2DCBF7004ACA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47BF0BA1A2DCBF7004ACA07 /* Images.xcassets in Resources */,
+				B47BF0BD1A2DCBF8004ACA07 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B47BF0C01A2DCBF8004ACA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B47BF0AC1A2DCBF7004ACA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47BF0B81A2DCBF7004ACA07 /* AppDelegate.swift in Sources */,
+				B47BF0B61A2DCBF7004ACA07 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B47BF0BE1A2DCBF8004ACA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47BF0C91A2DCBF8004ACA07 /* EFIMANTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B47BF0C41A2DCBF8004ACA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B47BF0AF1A2DCBF7004ACA07 /* EFIMAN */;
+			targetProxy = B47BF0C31A2DCBF8004ACA07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B47BF0BB1A2DCBF8004ACA07 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B47BF0BC1A2DCBF8004ACA07 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B47BF0CA1A2DCBF8004ACA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B47BF0CB1A2DCBF8004ACA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B47BF0CD1A2DCBF8004ACA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EFIMAN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B47BF0CE1A2DCBF8004ACA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EFIMAN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B47BF0D01A2DCBF8004ACA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EFIMAN.app/Contents/MacOS/EFIMAN";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EFIMANTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B47BF0D11A2DCBF8004ACA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EFIMAN.app/Contents/MacOS/EFIMAN";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EFIMANTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B47BF0AB1A2DCBF7004ACA07 /* Build configuration list for PBXProject "EFIMAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47BF0CA1A2DCBF8004ACA07 /* Debug */,
+				B47BF0CB1A2DCBF8004ACA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B47BF0CC1A2DCBF8004ACA07 /* Build configuration list for PBXNativeTarget "EFIMAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47BF0CD1A2DCBF8004ACA07 /* Debug */,
+				B47BF0CE1A2DCBF8004ACA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B47BF0CF1A2DCBF8004ACA07 /* Build configuration list for PBXNativeTarget "EFIMANTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47BF0D01A2DCBF8004ACA07 /* Debug */,
+				B47BF0D11A2DCBF8004ACA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B47BF0A81A2DCBF7004ACA07 /* Project object */;
+}

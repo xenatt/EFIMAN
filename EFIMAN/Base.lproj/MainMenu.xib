@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6154.17" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1080" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6154.17"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <window releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="jDt-1G-vth">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="335" y="390" width="574" height="349"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <view key="contentView" id="bMu-8O-GsN">
+                <rect key="frame" x="0.0" y="0.0" width="574" height="349"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QpQ-6L-7bJ">
+                        <rect key="frame" x="291" y="262" width="265" height="33"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="About NVRamFix" id="Es3-RT-ujt">
+                            <font key="font" metaFont="system" size="17"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="aqua" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P0b-rq-mt8">
+                        <rect key="frame" x="291" y="42" width="265" height="187"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="6Cf-zj-7xp">
+                            <font key="font" metaFont="system"/>
+                            <string key="title">NVRamFix Functional Create nvram file  or Install NVRam LOader For FusionDrive.
+NVRamFix Development for Clover EFI Boot Loader.
+NVRamFix is a Part of Project iFix by Hackintosh Thailand Commutnity
+Development By Nattapapong Pullkhow
+
+Contacts
+email : exenatt@gmail.com
+twitter : @xenatt </string>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NcO-sh-CcW">
+                        <rect key="frame" x="291" y="237" width="265" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="7U1-d1-Qyb">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rzG-0y-9Qn">
+                        <rect key="frame" x="20" y="42" width="265" height="265"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="logo" id="VCv-sz-PEN"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="574" y="440.5"/>
+        </window>
+        <window title="EFIMAN" restorable="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="s02-jp-lw5" customClass="NSPanel">
+            <windowStyleMask key="styleMask" closable="YES" utility="YES" HUD="YES"/>
+            <rect key="contentRect" x="136" y="163" width="421" height="220"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <view key="contentView" id="NvL-yr-Qkr">
+                <rect key="frame" x="0.0" y="0.0" width="421" height="220"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YhT-EJ-XIW">
+                        <rect key="frame" x="212" y="20" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="/dev/disk0s1" id="D0v-gc-qTN">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KPz-Tb-HIK">
+                        <rect key="frame" x="212" y="40" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="drive2" id="NKF-gA-UYc">
+                            <font key="font" metaFont="miniSystem"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DLU-QL-CSs">
+                        <rect key="frame" x="75" y="20" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="/dev/disk0s1" id="ENh-Dc-cng">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vtH-A6-WzI">
+                        <rect key="frame" x="75" y="40" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="drive1" id="Uf8-oF-hCg">
+                            <font key="font" metaFont="miniSystem"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8l0-ko-aFR">
+                        <rect key="frame" x="77" y="20" width="129" height="180"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="drive" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="dZm-tg-erX">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="firstBTNminiWin:" target="Voe-Tx-rLC" id="Sul-jv-4aP"/>
+                        </connections>
+                    </button>
+                    <button appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="utb-cg-2hK">
+                        <rect key="frame" x="214" y="20" width="129" height="180"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="drive" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="Vp9-38-zYz">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="secondBTNminiWin:" target="Voe-Tx-rLC" id="Bc8-B0-aug"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="497.5" y="788"/>
+        </window>
+        <window title="EFIMAN" restorable="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="z1s-Qd-3E2" customClass="NSPanel">
+            <windowStyleMask key="styleMask" closable="YES" miniaturizable="YES" utility="YES" HUD="YES"/>
+            <rect key="contentRect" x="136" y="163" width="558" height="226"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <view key="contentView" id="xFf-7b-Tl1">
+                <rect key="frame" x="0.0" y="0.0" width="558" height="226"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7hG-gN-50N">
+                        <rect key="frame" x="349" y="20" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="/dev/disk0s1" id="bmR-UA-2en">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LDr-ea-eIk">
+                        <rect key="frame" x="349" y="46" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="WDC WD10EZEX-00ZF5A0" id="UnI-1L-TDn">
+                            <font key="font" metaFont="system" size="8"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="leq-Mn-qCq">
+                        <rect key="frame" x="351" y="20" width="129" height="186"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="drive" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="Ved-YT-g1H">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="thirdBTNFullWin:" target="Voe-Tx-rLC" id="RWv-5n-Opd"/>
+                        </connections>
+                    </button>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uds-HJ-lVs">
+                        <rect key="frame" x="212" y="20" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" alignment="center" title="/dev/disk0s1" id="Fxl-wc-fKG">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ytJ-5V-KBU">
+                        <rect key="frame" x="212" y="46" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="WDC WD10EZEX-00ZF5A0" id="al1-3P-fqg">
+                            <font key="font" metaFont="system" size="8"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jhd-hB-RlN">
+                        <rect key="frame" x="214" y="20" width="129" height="186"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="drive" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="XCr-Oa-FkF">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="seconBTNFullWin:" target="Voe-Tx-rLC" id="Qcv-WM-vSd"/>
+                        </connections>
+                    </button>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oig-gc-9dC">
+                        <rect key="frame" x="73" y="20" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="/dev/disk0s1" id="0Ps-28-8ov">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gKX-HB-Vtu">
+                        <rect key="frame" x="75" y="46" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="WDC WD5001AALS-00J7B0" id="oF8-Ir-FWP">
+                            <font key="font" metaFont="system" size="8"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CfA-Ru-Fkn">
+                        <rect key="frame" x="75" y="20" width="129" height="186"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="drive" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="X7z-l5-1AV">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="firstBTNFullWin:" target="Voe-Tx-rLC" id="C7w-FX-1Ck"/>
+                        </connections>
+                    </button>
+                    <button appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Igf-G3-zty">
+                        <rect key="frame" x="490" y="102" width="48" height="48"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="arrow-right" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="gkh-Jv-eWR">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="rightArrowFullWinClick:" target="Voe-Tx-rLC" id="npo-G3-wJY"/>
+                        </connections>
+                    </button>
+                    <button appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qlh-MS-XZc">
+                        <rect key="frame" x="20" y="102" width="48" height="48"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="arrow-left" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="dLk-3E-Kqg">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="leftArrowFullWinClick:" target="Voe-Tx-rLC" id="lkD-gp-Yv2"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="566" y="1079"/>
+        </window>
+        <customObject id="-3" userLabel="Application"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="EFIMAN" customModuleProvider="target">
+            <connections>
+                <outlet property="ConfirmText" destination="G0S-e7-aNs" id="kN3-R4-ewY"/>
+                <outlet property="ConfirmTitle" destination="fx8-gQ-q5o" id="CuU-wK-7pk"/>
+                <outlet property="InfoText" destination="jJ6-mg-yYf" id="WGn-KK-ODT"/>
+                <outlet property="InfoTitle" destination="mh3-ca-zSt" id="fJ1-Ro-WIC"/>
+                <outlet property="InfoWindow" destination="3q3-8M-aEC" id="Qit-Cf-9WV"/>
+                <outlet property="SplashWindow" destination="ER5-Rk-0qj" id="m4m-Mw-q8W"/>
+                <outlet property="confirmWindow" destination="bFu-y9-hgk" id="tSX-pY-wtd"/>
+                <outlet property="firsPathTextFull" destination="oig-gc-9dC" id="whI-1i-ZHD"/>
+                <outlet property="firstPathTextMini" destination="DLU-QL-CSs" id="WJM-Vv-Boh"/>
+                <outlet property="firstTextFullWin" destination="gKX-HB-Vtu" id="0IY-LU-fi9"/>
+                <outlet property="firstTextminiWin" destination="vtH-A6-WzI" id="fFV-5n-Ocb"/>
+                <outlet property="fullWin" destination="z1s-Qd-3E2" id="VjV-QO-Znj"/>
+                <outlet property="leftArrowFullWin" destination="Qlh-MS-XZc" id="n2y-fe-MVZ"/>
+                <outlet property="miniWin" destination="s02-jp-lw5" id="Znp-8y-nJq"/>
+                <outlet property="rightArrowFullWin" destination="Igf-G3-zty" id="Qxd-4b-Mdk"/>
+                <outlet property="seconPathTextMini" destination="YhT-EJ-XIW" id="I0G-qi-Bel"/>
+                <outlet property="secondPathTextFull" destination="Uds-HJ-lVs" id="iDo-OE-Oaj"/>
+                <outlet property="secondTextFullWin" destination="ytJ-5V-KBU" id="MVg-ys-VID"/>
+                <outlet property="secondTextminiWin" destination="KPz-Tb-HIK" id="CyV-4L-Qmr"/>
+                <outlet property="thirdPathTextFull" destination="7hG-gN-50N" id="vOH-9w-c9M"/>
+                <outlet property="thirdTextFullWin" destination="LDr-ea-eIk" id="NWb-Nd-nFt"/>
+                <outlet property="window" destination="jDt-1G-vth" id="05P-qD-jRq"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+            <items>
+                <menuItem title="EFIMAN" id="1Xt-HY-uBw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="EFIMAN" systemMenu="apple" id="uQy-DD-JDr">
+                        <items>
+                            <menuItem title="About EFIMAN" id="5kV-Vb-QxS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="AboutWindowClick_:" target="Voe-Tx-rLC" id="jp3-iZ-tre"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                            <menuItem title="Services" id="NMo-om-nkz">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                            <menuItem title="Hide EFIMAN" keyEquivalent="h" id="Olw-nP-bQN">
+                                <connections>
+                                    <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="hideOtherApplications:" target="-1" id="VT4-aY-XCT"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Show All" id="Kd2-mp-pUS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="unhideAllApplications:" target="-1" id="Dhg-Le-xox"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                            <menuItem title="Quit EFIMAN" keyEquivalent="q" id="4sb-4s-VLi">
+                                <connections>
+                                    <action selector="setQuit_:" target="Voe-Tx-rLC" id="hXa-EX-wut"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="File" id="dMs-cI-mzQ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="File" id="bib-Uj-vzu">
+                        <items>
+                            <menuItem title="Close" id="DVo-aG-piG">
+                                <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="setCloseClick_:" target="Voe-Tx-rLC" id="XMd-cH-T2A"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+            </items>
+        </menu>
+        <window title="EFIMAN" allowsToolTipsWhenApplicationIsInactive="NO" restorable="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="bFu-y9-hgk" customClass="NSPanel">
+            <windowStyleMask key="styleMask" closable="YES" miniaturizable="YES" utility="YES" HUD="YES"/>
+            <rect key="contentRect" x="136" y="163" width="625" height="200"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <view key="contentView" id="XkX-QI-j3U">
+                <rect key="frame" x="0.0" y="0.0" width="625" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YOs-QQ-fHT">
+                        <rect key="frame" x="337" y="20" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Cancel" id="wlM-u4-Xuu">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8io-WJ-odY">
+                        <rect key="frame" x="339" y="20" width="129" height="160"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="close" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="tYY-4G-aGj">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="ConfirmCancelClick_:" target="Voe-Tx-rLC" id="GDt-4t-Phu"/>
+                        </connections>
+                    </button>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v7c-yV-6Ud">
+                        <rect key="frame" x="474" y="20" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Mount" id="eoI-mh-MVk">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="aqua" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RMw-EG-kVn">
+                        <rect key="frame" x="29" y="43" width="304" height="81"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="ssssss" id="G0S-e7-aNs">
+                            <font key="font" metaFont="system" size="15"/>
+                            <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fx8-gQ-q5o">
+                        <rect key="frame" x="29" y="127" width="304" height="37"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="ssss" id="QpL-dH-i2m">
+                            <font key="font" metaFont="system" size="19"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zka-CO-EeG">
+                        <rect key="frame" x="476" y="20" width="129" height="160"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="drive" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="Jvg-lA-Woz">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="CounfirmMountClick:" target="Voe-Tx-rLC" id="F51-65-nbQ"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="599.5" y="1362"/>
+        </window>
+        <window title="EFIMAN" allowsToolTipsWhenApplicationIsInactive="NO" restorable="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="3q3-8M-aEC" customClass="NSPanel">
+            <windowStyleMask key="styleMask" closable="YES" miniaturizable="YES" utility="YES" HUD="YES"/>
+            <rect key="contentRect" x="136" y="163" width="488" height="200"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <view key="contentView" id="Ndc-gf-oxk">
+                <rect key="frame" x="0.0" y="0.0" width="488" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zk4-zM-fWu">
+                        <rect key="frame" x="337" y="20" width="133" height="24"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Close" id="1bY-MX-gqo">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button appearanceType="aqua" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k8p-Ly-eGe">
+                        <rect key="frame" x="339" y="20" width="129" height="160"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="close" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="QbQ-2a-Hl2">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="InfoCloseClick:" target="Voe-Tx-rLC" id="06g-jT-cbI"/>
+                        </connections>
+                    </button>
+                    <textField appearanceType="aqua" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jJ6-mg-yYf">
+                        <rect key="frame" x="29" y="52" width="304" height="74"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="sB1-1l-djU">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField appearanceType="aqua" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mh3-ca-zSt">
+                        <rect key="frame" x="29" y="134" width="304" height="31"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="g97-4K-YWC">
+                            <font key="font" metaFont="system" size="17"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="531" y="1672"/>
+        </window>
+        <window title="EFIMAN" allowsToolTipsWhenApplicationIsInactive="NO" restorable="NO" hidesOnDeactivate="YES" releasedWhenClosed="NO" showsToolbarButton="NO" backingType="nonretained" animationBehavior="default" id="ER5-Rk-0qj">
+            <rect key="contentRect" x="196" y="207" width="602" height="413"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <view key="contentView" id="3Fa-la-evX">
+                <rect key="frame" x="0.0" y="0.0" width="602" height="413"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0LZ-WO-lGI">
+                        <rect key="frame" x="-7" y="-5" width="616" height="423"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="splash" id="EaP-Nf-niR"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="588" y="2053.5"/>
+        </window>
+    </objects>
+    <resources>
+        <image name="arrow-left" width="46.545455932617188" height="46.545455932617188"/>
+        <image name="arrow-right" width="46.545455932617188" height="46.545455932617188"/>
+        <image name="close" width="512" height="512"/>
+        <image name="drive" width="256" height="256"/>
+        <image name="logo" width="256" height="256"/>
+        <image name="splash" width="604" height="411"/>
+    </resources>
+</document>
